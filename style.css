@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+body{
+    background-color: yellow;
+    font-family: 'Ranchers', cursive;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 25px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 10px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+    cursor: pointer;
+  }
+
+
+/* Continer */
+.container{
+    position: relative;
+    top: 4rem;
+}
+
+/* Heading */
+.container h1{
+    font-size: 7rem;
+}
+
+/* Paragraph */
+#game p{
+    font-size: 3rem;
+}
+
+/* Input */
+#guess-input{
+    font-family: 'Ranchers', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* img */
+img{
+    position: relative;
+    margin: auto;
+} 
+
+/* Button */
+#guess-btn{
+    font-family: 'Ranchers', cursive;
+    font-size: 1.8rem;
+}
+#guess-btn:hover{
+    background-color: black;
+    color: yellow;
+}
+
+
+/* Footer */
+footer{
+    position: relative;
+    top: 10rem;
+}
+footer span{
+    color: red;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 4rem;
+}
