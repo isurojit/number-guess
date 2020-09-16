@@ -43,7 +43,7 @@ UIguessBtn.addEventListener('click', function(){
     let guess = parseInt(UIguessInput.value);
 
     //Validate
-    if(isNaN(guess) || guess < min || guess > max || isFinite(guess)){
+    if(isNaN(guess) || guess < min || guess > max){
         setMessage(`Please enter a number between ${min} and ${max}`, 'red');
     }else{
 
